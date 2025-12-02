@@ -21,7 +21,7 @@ int main(void) {
 
     // Add your if/else statements here to print the correct message.
     if (number == 0) {
-        printf("%d is zero.\n", number);
+        printf("Zero is even.\n%d is even.\n", number);
     }
     else if (number %2) {
         printf("%d is odd.\n", number);
